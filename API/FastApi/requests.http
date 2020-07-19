@@ -1,0 +1,17 @@
+
+
+# Basic Request
+GET http://127.0.0.1:8000/
+
+# check data validation
+GET http://127.0.0.1:8000/item/xuxa
+
+
+# check resquest 
+GET http://127.0.0.1:8000/item/5
+
+
+# other path
+GET http://127.0.0.1:8000/users/me
+
+GET http://127.0.0.1:8000/users/1
