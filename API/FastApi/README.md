@@ -27,3 +27,4 @@ Robust: Get production-ready code. With automatic interactive documentation.
 # Study Log
 
 19/07/2020 -> I studied up to "Path Parameters"
+20/07/2020 -> I studied up to "Request Body"
