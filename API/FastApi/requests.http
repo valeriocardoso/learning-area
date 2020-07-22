@@ -21,7 +21,31 @@ GET http://127.0.0.1:8000/model/restnet
 
 
 # Query Parameters
-http://127.0.0.1:8000/items/
+GET http://127.0.0.1:8000/items/
 
 
-http://127.0.0.1:8000/items/?skip=0&limit=1
+GET http://127.0.0.1:8000/items/?skip=0&limit=1
+
+
+POST http://127.0.0.1:8000/items/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Foo",
+    "description": "An optional description",
+    "price": 45.2,
+    "tax": 3.5
+}
+
+
+PUT http://127.0.0.1:8000/items/1 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Foo",
+    "description": "An optional description",
+    "price": 45.2,
+    "tax": 3.5
+}
+
+
