@@ -1,1 +1,8 @@
 .vscode/
+__pycache__
+.pytest_cache
+
+
+# Files
+*.pyc
+*.
